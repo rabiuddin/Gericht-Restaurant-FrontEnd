@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const drinks = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
+    title: 'Gourmet Cola',
+    price: '$3',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
+    title: 'Cola Next',
+    price: '$2',
     tags: 'AU | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
+    title: 'Sprite Next',
+    price: '$4',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
+    title: 'Big Apple',
+    price: '$3',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
+    title: 'Big Lychee',
+    price: '$6',
     tags: 'IE | 750 ml',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
+    title: 'Pinnacolada',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'Aperol | PineApple | soda | 30 ml',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: "Mint Margarita",
+    price: '$6',
+    tags: 'Mint | Sprite Next | Slice of lime',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Beet-Sumac',
+    price: '$10',
+    tags: 'Beet Juice | Citrus juice | Sugar',
+  },
+  {
+    title: 'Tonic Mocktail',
+    price: '$13',
+    tags: 'Tonic | Brown sugar | Angostura Bitters',
+  },
+  {
+    title: 'Chai Blossom',
+    price: '$6',
+    tags: 'Tea | Citrus juice | Campari | Orange garnish',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { drinks, cocktails, awards };
